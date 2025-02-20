@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- *I am learning how to use C commands.
- *Return:
- *Always 0
+ * main - I am learning how to use C commands.
+ * Return: Always 0
  */
 int main(void)
 {
