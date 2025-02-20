@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* I am learning how to use C commands.
-* Return
-* Always 0
+*I am learning how to use C commands.
+*Return
+*Always 0
 */
 int main(void)
 {
