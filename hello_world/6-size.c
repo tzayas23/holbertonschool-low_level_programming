@@ -1,6 +1,8 @@
 #include <stdio.h>
 /*
  * main - Learning how to do sizes on C.
+ * This program prints the size of various types
+ * on the computer
  * Return: Always 0
  */
 
