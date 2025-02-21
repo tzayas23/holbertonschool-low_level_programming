@@ -1,6 +1,6 @@
 #include <stdio.h>
-/** 
- * main - Learning more about C.
+/**
+ *main - Learning more about C.
  *Return: Always 0
  */
 int main(void)
