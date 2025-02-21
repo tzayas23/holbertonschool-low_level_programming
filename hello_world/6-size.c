@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main
+/**
+ * main - Learning
  * This program prints the size of various types
  * on the computer
  * Return: Always 0
