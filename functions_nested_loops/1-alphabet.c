@@ -7,15 +7,15 @@
  */
 void print_alphabet(void)
 {
-    char *alphabet = "abcdefghijklmnopqrstuvwxyz";
+	char *alphabet = "abcdefghijklmnopqrstuvwxyz";
 
-    /* Print the alphabet */
-    while (*alphabet)
-    {
-        _putchar(*alphabet);
-        alphabet++;
-    }
+	/* Print the alphabet */
+	while (*alphabet)
+	{
+		_putchar(*alphabet);
+		alphabet++;
+	}
 
-    /* Print a new line */
-    _putchar('\n');
+	/* Print a new line */
+	_putchar('\n');
 }
