@@ -5,29 +5,26 @@
  *
  * Description: This program prints all possible combinations of
  * single-digit numbers in ascending order, separated by ", ".
- * It uses only the putchar function four times, and no `char` variables.
+ * It uses only the putchar function four times, and does not use
+ * any variables of type char.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int num1, num2;
+int num;
 
-    for (num1 = 0; num1 < 9; num1++)
+for (num = 0; num < 10; num++)
     {
-        for (num2 = num1 + 1; num2 < 10; num2++)
+putchar(num + '0');    /* print number */
+if (num != 9)
         {
-            putchar(num1 + '0');
-            putchar(num2 + '0');
-            if (num1 != 8 || num2 != 9)
-            {
-                putchar(',');
-                putchar(' ');
-            }
+putchar(',');      /* print comma */
+putchar(' ');      /* print space */
         }
     }
 
-    putchar('\n');
+putchar('\n');  /* new line after printing all numbers */
 
-    return (0);
+return (0);
 }
