@@ -1,29 +1,23 @@
 #include <stdio.h>
 
-/**
- * print_alphabet_x10 - Prints the alphabet in lowercase 10 times
- * followed by a new line each time.
- *
- * Return: void
- */
-void print_alphabet_x10(void)
-{
-int i;
-char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
-
-for (i = 0; i < 10; i++)
-{
-_putchar(alphabet);`
-}
+void _putchar(char c) {
+	putchar(c);
 }
 
-/**
- * _putchar - writes a character to standard output
- * @c: The character to print
- *
- * Return: On success 1, on error -1.
- */
-int _putchar(char c)
-{
-return write(1, &c, 1);  /* write system call to print the character */
+void print_alphabet_x10(void) {
+	int i;
+	char letter;
+
+	for (i = 0; i < 10; i++) {
+		for (letter = 'a'; letter <= 'z'; letter++) {
+			_putchar(letter);
+		}
+		_putchar('\n');  // Print new line after each repetition
+	}
 }
+
+int main() {
+	print_alphabet_x10();  // Call the function to print the alphabet 10 times
+	return 0;
+}
+
