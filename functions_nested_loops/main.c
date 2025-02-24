@@ -2,16 +2,17 @@
 #include "main.h"
 
 /**
- * main - Entry point to test _islower function
+ * main - Entry point to test _isalpha function
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c1 = 'a', c2 = 'Z';
+	char c1 = 'b', c2 = 'G', c3 = '5';
 
-	printf("%c is lowercase? %d\n", c1, _islower(c1));
-	printf("%c is lowercase? %d\n", c2, _islower(c2));
+	printf("%c is alphabetic? %d\n", c1, _isalpha(c1));
+	printf("%c is alphabetic? %d\n", c2, _isalpha(c2));
+	printf("%c is alphabetic? %d\n", c3, _isalpha(c3));
 
 	return (0);
 }
