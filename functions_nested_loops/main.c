@@ -2,23 +2,17 @@
 #include "main.h"
 
 /**
- * main - Entry point to test print_sign function
+ * main - Entry point to test _abs function
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int result;
+	int num1 = -10, num2 = 5, num3 = 0;
 
-	result = print_sign(5);
-	printf(" -> %d\n", result);
-
-	result = print_sign(0);
-	printf(" -> %d\n", result);
-
-	result = print_sign(-3);
-	printf(" -> %d\n", result);
+	printf("Absolute of %d: %d\n", num1, _abs(num1));
+	printf("Absolute of %d: %d\n", num2, _abs(num2));
+	printf("Absolute of %d: %d\n", num3, _abs(num3));
 
 	return (0);
 }
-
