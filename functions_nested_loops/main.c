@@ -2,17 +2,22 @@
 #include "main.h"
 
 /**
- * main - Entry point to test _abs function
+ * main - Entry point to test print_last_digit function
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int num1 = -10, num2 = 5, num3 = 0;
+	int r;
 
-	printf("Absolute of %d: %d\n", num1, _abs(num1));
-	printf("Absolute of %d: %d\n", num2, _abs(num2));
-	printf("Absolute of %d: %d\n", num3, _abs(num3));
+	r = print_last_digit(1234);
+	printf(" -> %d\n", r);
+
+	r = print_last_digit(-5678);
+	printf(" -> %d\n", r);
+
+	r = print_last_digit(0);
+	printf(" -> %d\n", r);
 
 	return (0);
 }
