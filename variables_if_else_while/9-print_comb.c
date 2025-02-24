@@ -15,14 +15,14 @@ int main(void)
 int num;
 
 for (num = 0; num < 10; num++)
-    {
+{
 putchar(num + '0');    /* print number */
 if (num != 9)
-        {
+{
 putchar(',');      /* print comma */
 putchar(' ');      /* print space */
-        }
-    }
+}
+}
 
 putchar('\n');  /* new line after printing all numbers */
 
