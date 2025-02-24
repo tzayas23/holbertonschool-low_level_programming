@@ -2,17 +2,23 @@
 #include "main.h"
 
 /**
- * main - Entry point to test _isalpha function
+ * main - Entry point to test print_sign function
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c1 = 'b', c2 = 'G', c3 = '5';
+	int result;
 
-	printf("%c is alphabetic? %d\n", c1, _isalpha(c1));
-	printf("%c is alphabetic? %d\n", c2, _isalpha(c2));
-	printf("%c is alphabetic? %d\n", c3, _isalpha(c3));
+	result = print_sign(5);
+	printf(" -> %d\n", result);
+
+	result = print_sign(0);
+	printf(" -> %d\n", result);
+
+	result = print_sign(-3);
+	printf(" -> %d\n", result);
 
 	return (0);
 }
+
