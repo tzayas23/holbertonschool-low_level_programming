@@ -1,15 +1,17 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Entry point of the program
  *
- * Description: This program prints "_putchar", followed by a new line.
+ * Description: This program prints "_putchar", followed by a new line,
+ * using the write function.
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-printf("_putchar\n");
+write(1, "_putchar\n", 9);  /* Write the string and new line */
 
 return (0);
 }
+
