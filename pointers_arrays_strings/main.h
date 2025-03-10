@@ -2,6 +2,6 @@
 #define MAIN_H
 
 int _putchar(char c);  /* Function prototype for _putchar */
-void rev_string(char *s);  /* Function prototype for rev_string */
+void puts2(char *str);  /* Function prototype for puts2 */
 
 #endif /* MAIN_H */
