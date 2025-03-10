@@ -4,7 +4,7 @@ int main(void)
 {
 	char str[] = "Hello, World!";
 
-	_puts(str);  /* Call the _puts function to print the string */
+	print_rev(str);  /* Call the print_rev function to print the string in reverse */
 
 	return (0);
 }
