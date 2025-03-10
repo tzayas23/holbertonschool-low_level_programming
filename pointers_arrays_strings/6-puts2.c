@@ -17,10 +17,12 @@ void puts2(char *str)
 	{
 		if (i % 2 == 0)  /* Check if the index is even */
 		{
-			_putchar(str[i]);  /* Print the character at the even index */
+			_putchar(str[i]);
+			/* Print the character at the even index */
 		}
 		i++;
 	}
 
-	_putchar('\n');  /* Print a new line after the string */
+	_putchar('\n');
+	/* Print a new line after the string */
 }
