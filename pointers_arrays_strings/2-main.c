@@ -6,7 +6,7 @@ int main(void)
 	char str[] = "Hello, World!";
 	int len;
 
-	len = _strlen(str); /* Call _strlen function */
+	len = _strlen(str);
 	printf("Length of \"%s\": %d\n", str, len);
 
 	return (0);
